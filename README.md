@@ -32,6 +32,17 @@ This project will display my knowledge of JavaScript and WebBrowsers through les
 
 ## Setup/Installation Requirements
 
+**How to clone repository**
+
+1. Go to https://github.com/SquidIcarus/Language_Suggester/tree/gh-pages
+and click on the "Code" button and copy the URL.
+
+2. Open Terminal/GitBash
+
+3. Within the desired directory, use the **git clone** command followed by the copied repository URL.
+
+4. Press enter and the repository should be cloned to your directory.
+
 
 
 ## Technologies used:
