@@ -1,5 +1,6 @@
 # Second Code Review
 
+# https://github.com/SquidIcarus/Language_Suggester.git
 
 ## Programming Language Suggester
 
@@ -26,9 +27,6 @@ This project will display my knowledge of JavaScript and WebBrowsers through les
 - Project is in a polished, portfolio-quality state.
 
 - The prompt's required functionality and baseline project requirements are in place by the deadline.
-
-
-## Link to site on GitHub Pages
 
 
 
