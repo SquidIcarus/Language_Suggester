@@ -6,13 +6,11 @@ window.onload = function () {
 
         let languageResult = document.getElementById("whatlanguage");
         languageResult.classList.add("hidden");
-        let languageResult = document.getElementById("whatlanguage");
-        languageResult.classList.add("hidden");
 
-        const question1 = parseInt(document.querySelector("#question1").value);
+        const numbChoice = document.querySelector('input[name="numb"]:checked');
         const question2 = document.querySelector("#question2").value;
 
-        if (question1 > 21) {
+        if (numbChoice && numbChoice.value === "13") {
             languageResult.classList.remove("hidden");
         }
 
