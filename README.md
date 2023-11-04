@@ -1,6 +1,6 @@
 # Second Code Review
 
-# https://github.com/SquidIcarus/Language_Suggester.git
+# https://squidicarus.github.io/Language_Suggester/
 
 ## Programming Language Suggester
 
@@ -46,11 +46,6 @@ and click on the "Code" button and copy the URL.
 
 
 ## Technologies used:
-
-
-**Computer & Operating System:**
-- Lenovo Ideapad
-- Windows 10
 
 **software Tools**
 - GitBash

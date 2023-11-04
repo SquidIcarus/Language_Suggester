@@ -4,10 +4,14 @@ window.onload = function () {
         event.preventDefault();
 
 
-        let languageResult = document.getElementById("whatlanguage");
+        let languageResult = document.getElementById("whatLanguage");
         languageResult.classList.add("hidden");
-        let languageResult2 = document.getElementById("otherlanguage");
+        let languageResult2 = document.getElementById("otherLanguage");
         languageResult2.classList.add("hidden");
+        let languageResult3 = document.getElementById("pythonLanguage");
+        languageResult3.classList.add("hidden");
+        let languageResult4 = document.getElementById("whatLanguage");
+        languageResult4.classList.add("hidden");
         //let languageResultCode = document.getElementById("codelanguage");
         //languageResultCode.classList.add("hidden");
 
@@ -17,11 +21,13 @@ window.onload = function () {
         const question4 = document.querySelector("#question4").value;
         const question5 = document.querySelector("#question5").value;
 
-        if (numbChoice && numbChoice.value === "13") {
+        if (numbChoice && parseInt(numbChoice.value) <= 13) {
             languageResult.classList.remove("hidden");
-        } else if (numbChoice && numbChoice.value === "22") {
+        } else if (numbChoice && parseInt(numbChoice.value) >= 22 && parseInt(numbChoice.value) < 99) {
             languageResult2.classList.remove("hidden");
-        }
+        } else if (numbChoice && parseInt(numbChoice.value) >= 100) {
+            languageResult3.classList.remove("hidden");
+        };
 
         if (question2.toLowerCase() === "red") {
             languageResult.classList.remove("hidden");
@@ -31,7 +37,7 @@ window.onload = function () {
             languageResult.classList.remove("hidden");
         }
 
-        if (question4.toLowerCase() === "Japan") {
+        if (question4.toLowerCase() === "japan") {
             languageResult.classList.remove("hidden");
         }
 

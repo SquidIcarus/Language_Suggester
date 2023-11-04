@@ -24,13 +24,14 @@
             <p>What is your favorite number?</p>
             <input type="radio" name="numb" value="13"> 13
             <input type="radio" name="numb" value="22"> 22
-            <input type="radio" name="numb" value="22"> 100
+            <input type="radio" name="numb" value="100"> 100
         </label>
         <br>
 
         <label for="question2">
             <p>What is your favorite color?</p>
             <select id="question2" class="dropdown">
+                <option value="">--Pick a color--</option>
                 <option value="red">Red</option>
                 <option value="blue">Blue</option>
                 <option value="green">Green</option>
@@ -40,6 +41,7 @@
 
         <p>What is your favorite food?</p>
         <select id="question3" class="dropdown">
+            <option value="">--Pick a food--</option>
             <option value="hot dog">Hot Dog</option>
             <option value="taco">Taco</option>
             <option value="pizza">Pizza</option>
@@ -49,6 +51,7 @@
 
         <p>Where is Carmen Sandiego?</p>
         <select id="question4" class="dropdown">
+            <option value="">--Pick a place--</option>
             <option value="San Diego">San Diego</option>
             <option value="Japan">Japan</option>
             <option value="Mexico">Mexico</option>
@@ -58,6 +61,7 @@
 
         <p>Do you even code bro?</p>
         <select id="question5" class="dropdown">
+            <option value="">--Well do you?--</option>
             <option value="yes">Yes</option>
             <option value="no">No</option>
             <option value="code?">Code?</option>
@@ -73,8 +77,9 @@
 
     <h2>Results</h2>
     <div>
-        <p id="whatlanguage" class="hidden">What language will display here</p>
-        <p id="otherlanguage" class="hidden">Another language will display here</p>
+        <p id="whatLanguage" class="hidden">What language will display here</p>
+        <p id="otherLanguage" class="hidden">Another language will display here</p>
+        <p id="pythonLanguage" class="hidden">Oh you like numbers?</p>
         <!-- <p id="codelanguage" class="hidden">01101101 01100001 01111001 01100010 01100101 00100000 01111001 01101111 01110101 00100000
             01110011 01101000 01101111 01110101 01101100 01100100 01101110 00100100 00100000 01100010
             01100101 00100000 01100001 00100000 01110000 01110010 01101111 01100111 01110010 01100001
