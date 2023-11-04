@@ -12,8 +12,8 @@ window.onload = function () {
         languageResult3.classList.add("hidden");
         let languageResult4 = document.getElementById("whatLanguage");
         languageResult4.classList.add("hidden");
-        //let languageResultCode = document.getElementById("codelanguage");
-        //languageResultCode.classList.add("hidden");
+        let languageResultCode = document.getElementById("codeLanguage");
+        languageResultCode.classList.add("hidden");
 
         const numbChoice = document.querySelector('input[name="numb"]:checked');
         const question2 = document.querySelector("#question2").value;
@@ -43,7 +43,9 @@ window.onload = function () {
 
         if (question5.toLowerCase() === "yes") {
             languageResult.classList.remove("hidden");
-        } //else if (question5.toLowerCase() === "code?") {
-        //languageResultCode.classList.remove("hidden");
+        } else if (question5.toLowerCase() === "code?") {
+            languageResultCode.classList.remove("hidden");
+        };
     };
 };
+
