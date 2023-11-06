@@ -58,5 +58,7 @@ and click on the "Code" button and copy the URL.
 
 ## Known Bugs
 
+- Form only works if favorite food is selected.
+
 ## License
 [Copyright © 2023 Landon Leadford](LICENSE.txt)
