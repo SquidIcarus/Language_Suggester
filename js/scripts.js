@@ -12,25 +12,33 @@ window.onload = function () {
         let response = "";
 
         if (numbChoice && parseInt(numbChoice.value) <= 13 && question4.toLowerCase() !== "black") {
-            response += "You like spooky numbers!";
+            response += "You like spooky numbers! ";
         } else if (numbChoice && parseInt(numbChoice.value) >= 22 && parseInt(numbChoice.value) < 99 && question4.toLowerCase() !== "black") {
-            response += "Another language will display here";
+            response += "Keeping it simple i see ";
         } else if (numbChoice && parseInt(numbChoice.value) >= 100 && question4.toLowerCase() !== "black") {
-            response += "Oh you like numbers?";
+            response += "Oh you like numbers? ";
         }
 
-        if (question2.toLowerCase() === "taco" && question4.toLowerCase() !== "black") {
-            response += "What language will display here";
+        if (question2.toLowerCase() === "hot dog" && question4.toLowerCase() !== "black") {
+            response += "Hot dog response. ";
+        } else if (question2.toLowerCase() === "taco" && question4.toLowerCase() !== "black") {
+            response += "Taco response. ";
+        } else if (question2.toLowerCase() === "pizza" && question4.toLowerCase() !== "black") {
+            response += "Pizza response. ";
         }
 
-        if (question3.toLowerCase() === "japan" && question4.toLowerCase() !== "black") {
-            response += "What language will display here";
+        if (question3.toLowerCase() === "san diego" && question4.toLowerCase() !== "black") {
+            response += "San Diego response. ";
+        } else if (question3.toLowerCase() === "japan" && question4.toLowerCase() !== "black") {
+            response += "Japan response. ";
+        } else if (question3.toLowerCase() === "mexico" && question4.toLowerCase() !== "black") {
+            response += "Mexico response. ";
         }
 
         if (question4.toLowerCase() === "red" && question4.toLowerCase() !== "black") {
-            response += "What language will display here";
+            response += "Red response. ";
         } else if (question4.toLowerCase() === "white") {
-            response += "Maybe you should look into another hobby...";
+            response += "White response. ";
         } else if (question4.toLowerCase() === "black") {
             response += "Maybe seek out another hobbie..."
         }
