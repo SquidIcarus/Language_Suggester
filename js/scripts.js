@@ -43,10 +43,12 @@ window.onload = function () {
             response += "Maybe seek out another hobbie..."
         }
 
-        if (question5.toLowerCase() === "yes" && question4.toLowerCase() !== "black") {
-            response += "What you like is cool!";
-        } else if (question5.toLowerCase() === "no" && question4.toLowerCase() !== "black") {
-            response += "Maybe you should explore coding!";
+        if (question5.toLowerCase() === "I eat sleep and breath it!" && question4.toLowerCase() !== "black") {
+            response += "C#";
+        } else if (question5.toLowerCase() === "Have you seen my MySpace page?" && question4.toLowerCase() !== "black") {
+            response += "HTML";
+        } else if (question5.toLowerCase() === "I'm a sodoku master!" && question4.toLowerCase() !== "black") {
+            response += "CSS";
         } else if (question5.toLowerCase() === "code?" && question4.toLowerCase() !== "black") {
             response += "01001001 01110100 00100111 01110011 00100000 01101111 01101011 01100001 01111001 00101100 00100000 01110100 01110010 01111001 00100000 01101111 01110101 01110100 00100000 01000101 01110000 01101001 01100011 01101111 01100100 01110101 01110011 00101100 00100000 01110100 01101000 01100101 01111001 00100000 01110111 01101001 01101100 01101100 00100000 01110011 01101000 01101111 01110111 00100000 01111001 01101111 01110101 00100000 01110100 01101000 01100101 00100000 01110111 01100001 01111001 00100001";
         }

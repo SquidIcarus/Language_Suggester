@@ -38,8 +38,15 @@ form {
     margin-right: 10px;
 }
 
+.dropdown option {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .dropdown {
     font-family: 'Orbitron', sans-serif;
+    width: 150px;
 }
 
 button {
